@@ -36,7 +36,7 @@ pip install -r requirements.txt
 ![image](https://github.com/Ayan-Nalawade/Chat/assets/108238535/70cfdb6b-b052-4f21-a9bb-e8a0384bf433)
 
 3. GRAB authentication: Go to any of the '-ai-chatroom', then type something, like `!info`
-![image](https://github.com/Ayan-Nalawade/Chat/assets/108238535/da9cc2d3-e9f9-4f99-91a8-2c9bf856e233)
+![image](https://github.com/Ayan-Nalawade/Chat/assets/108238535/441e3306-fa8b-42b3-9dde-dda0566585b5)
 
 4. GRAB channel ID: Go to `poe-token` and copy the channel id
 ![image](https://github.com/Ayan-Nalawade/Chat/assets/108238535/71fee924-d88b-4921-b734-8be15aac9df5)
