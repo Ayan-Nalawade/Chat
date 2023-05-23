@@ -24,7 +24,7 @@ git clone https://github.com/Ayan-Nalawade/Chat.git
 ```
 **Install the repository**
 ```
-pip install -m requirements.txt
+pip install -r requirements.txt
 ```
 
 **Notes and usage**
