@@ -12,6 +12,9 @@ from bs4 import BeautifulSoup
 import os
 import pickle
 
+auth = "CHANGE ME"
+id = "CHANGE ME"
+
 parent_path = ""
 
 for each in sys.path:
@@ -555,7 +558,7 @@ if os.path.exists("./chat.context") and logpolicy == True:
 
 def retrieve_messages(channel_id: int) -> None:
     headers = {
-        'authorization': 'MTExMDY2OTU4ODA4Mjk4NzEwOQ.GHzyC4.JGOTySUclPyNviGOVL_Dbluwwx8jJysYRlwy3g'
+        'authorization': auth
     }
     url = f'https://discord.com/api/v9/channels/{channel_id}/messages'
     params = {'limit': limit} 
@@ -571,7 +574,7 @@ def retrieve_messages(channel_id: int) -> None:
             last_message_id = jsonn[-1]['id']
             params['before'] = last_message_id
 
-retrieve_messages('1106857176355569714')
+retrieve_messages(id)
 
 def pr_botnames(local_client) -> None:
   count = 1
