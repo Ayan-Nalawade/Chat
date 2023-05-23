@@ -555,7 +555,7 @@ if os.path.exists("./chat.context") and logpolicy == True:
 
 def retrieve_messages(channel_id: int) -> None:
     headers = {
-        'authorization': 'MTExMDY2OTU4ODA4Mjk4NzEwOQ.Gd56J0.b_Jeh_KOAtVZBKgFEXCNzHo4as1B6eWgRGZgd0'
+        'authorization': 'MTExMDY2OTU4ODA4Mjk4NzEwOQ.GHzyC4.JGOTySUclPyNviGOVL_Dbluwwx8jJysYRlwy3g'
     }
     url = f'https://discord.com/api/v9/channels/{channel_id}/messages'
     params = {'limit': limit} 
@@ -563,6 +563,7 @@ def retrieve_messages(channel_id: int) -> None:
         r = requests.get(url, headers=headers, params=params)
         jsonn = json.loads(r.text)
         for value in jsonn:
+            # print(value)
             tokens.append(value['content'])
         if len(jsonn) < limit:
             break
