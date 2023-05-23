@@ -39,6 +39,7 @@ pip install -r requirements.txt
 ![image](https://github.com/Ayan-Nalawade/Chat/assets/108238535/441e3306-fa8b-42b3-9dde-dda0566585b5)
 
 4. GRAB channel ID: Go to `poe-token` and copy the channel id
+
 ![image](https://github.com/Ayan-Nalawade/Chat/assets/108238535/71fee924-d88b-4921-b734-8be15aac9df5)
 
 5. Put information from STEP 3 into the `auth` variable in the chatv1.py
