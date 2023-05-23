@@ -27,6 +27,23 @@ git clone https://github.com/Ayan-Nalawade/Chat.git
 pip install -r requirements.txt
 ```
 
+**Setup discord api**
+***NOTE: Having it open on the website is required here!***
+
+1. Join the discord server: https://discord.gg/v5mqTMjmFn
+
+3. Press `ctrl + shift + i` to open chrome dev -> Then navigate to the 'network' tab
+![image](https://github.com/Ayan-Nalawade/Chat/assets/108238535/70cfdb6b-b052-4f21-a9bb-e8a0384bf433)
+
+3. GRAB authentication: Go to any of the '-ai-chatroom', then type something, like `!info`
+![image](https://github.com/Ayan-Nalawade/Chat/assets/108238535/da9cc2d3-e9f9-4f99-91a8-2c9bf856e233)
+
+4. GRAB channel ID: Go to `poe-token` and copy the channel id
+![image](https://github.com/Ayan-Nalawade/Chat/assets/108238535/71fee924-d88b-4921-b734-8be15aac9df5)
+
+5. Put information from STEP 3 into the `auth` variable in the chatv1.py
+6. Put information from STEP 4 into the `id` variable in the chatv1.py
+
 **Notes and usage**
 
 Program by default will cycle through available and WORKING api's
