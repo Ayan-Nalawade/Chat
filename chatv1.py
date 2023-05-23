@@ -570,7 +570,7 @@ def retrieve_messages(channel_id: int) -> None:
             last_message_id = jsonn[-1]['id']
             params['before'] = last_message_id
 
-retrieve_messages('1106857176355569714')
+retrieve_messages('1106520284967735316')
 
 def pr_botnames(local_client) -> None:
   count = 1
