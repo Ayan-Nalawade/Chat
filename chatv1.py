@@ -646,6 +646,6 @@ while True:
   if logpolicy == True:
     data2 += f"Input by user: {ask}, output: {tmp}"
 
-if data2 != "" and logpolicy == Tr
+if data2 != "" and logpolicy == True:
   with open("chat.context", "wb" ) as f:
     pickle.dump(data2, f)
