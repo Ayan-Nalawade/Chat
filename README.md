@@ -24,9 +24,12 @@ git clone https://github.com/Ayan-Nalawade/Chat.git
 ```
 **Install the repository**
 ```
-python -r requirements.txt / python3 -r requirements.txt
+python -r requirements.txt
 ```
-
+OR
+```
+python3 -r requirements.txt
+```
 
 **Notes and usage**
 
