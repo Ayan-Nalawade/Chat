@@ -11,9 +11,6 @@ FreeGPT4 - Lomusire (https://github.com/Lomusire/FreeGPT-4)
 
 > For creating a program capable to create tokens, They also own a very cool discord server, I would recommend joining it!
 
-***Thank you very much for your contributions!***
-
-
 
 **Requirements and setup**
 
