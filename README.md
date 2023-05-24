@@ -1,6 +1,8 @@
 # Chat
 Access multiple models such as gpt-3/3.5, gpt-4, claude+, claude-instant for free!
 
+***Run this program on repl.it***
+https://replit.com/@NA4543/Chat?v=1
 
 **CREDITS**
 Poe-API  - ading2210 (https://github.com/ading2210/poe-api)  
@@ -68,7 +70,6 @@ use `--no-logs` if your having any issues with respond speeds or the program wor
 
 `clear context` or `cls_context`: Remove any sort of context; from local files, and from *poe*
 
-***Run this program on repl.it***
-https://replit.com/@NA4543/Chat?v=1
+
 
 ***If you have any further questions, or suggestions, feel free to create a thread*** 
