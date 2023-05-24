@@ -25,7 +25,7 @@ pip install -r requirements.txt
 ```
 
 **Setup discord api**
-***NOTE: Having it open on the website is required here!***
+***NOTE: Having it open on the website is required here and have the developer mode on, read below on how to turn it on!!***
 
 1. Join the discord server: https://discord.gg/v5mqTMjmFn
 
@@ -43,6 +43,14 @@ pip install -r requirements.txt
 6. Put information from STEP 4 into the `id` variable in the chatv1.py
 
 ![image](https://github.com/Ayan-Nalawade/Chat/assets/108238535/5743ee5d-97f1-4f64-99a0-a91a36fd0e3b)
+
+**How to turn developer mode on in discord**
+
+1. Click on the settings on the user profile
+![image](https://github.com/Ayan-Nalawade/Chat/assets/108238535/974a3245-da57-449e-838a-e16c9a69cb17)
+2. Click on the advanced tab and then turn on developer mode
+![image](https://github.com/Ayan-Nalawade/Chat/assets/108238535/bbf6c731-b6af-4faa-b5bd-d48cc5a7f3bc)
+
 
 
 **Notes and usage**
