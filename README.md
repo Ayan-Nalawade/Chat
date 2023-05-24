@@ -27,6 +27,7 @@ pip install -r requirements.txt
 ```
 
 **Setup discord api**
+
 ***NOTE: Having it open on the website is required here and have the developer mode on, read below on how to turn it on!!***
 
 1. Join the discord server: https://discord.gg/v5mqTMjmFn
