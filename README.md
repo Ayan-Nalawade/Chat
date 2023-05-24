@@ -45,6 +45,9 @@ pip install -r requirements.txt
 5. Put information from STEP 3 into the `auth` variable in the chatv1.py
 6. Put information from STEP 4 into the `id` variable in the chatv1.py
 
+![image](https://github.com/Ayan-Nalawade/Chat/assets/108238535/5743ee5d-97f1-4f64-99a0-a91a36fd0e3b)
+
+
 **Notes and usage**
 
 Program by default will cycle through available and WORKING api's
