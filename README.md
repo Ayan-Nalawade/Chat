@@ -59,7 +59,7 @@ pip install -r requirements.txt
 **Notes and usage**
 
 Program by default will cycle through available and WORKING api's
-Each api will be connected for 10 requests to avoid overloading singular api
+Each api will be connected for certain amount of requests to avoid overloading singular api
 
 use `--no-logs` if your having any issues with respond speeds or the program working at all..This command prevents context between different models/api's
 
