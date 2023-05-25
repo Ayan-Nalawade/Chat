@@ -14,6 +14,7 @@ import pickle
 
 auth = "CHANGE ME"
 id = "CHANGE ME"
+max_tokens = 100
 
 parent_path = ""
 
@@ -545,7 +546,7 @@ colorama.init(autoreset=True)
 count = 0
 logpolicy = True
 token_verification = 0
-
+count = randint(0,max_tokens)
 tokens.append("0")
 
 if len(sys.argv) == 2 and sys.argv[1].lower() == "--no-logs":
@@ -562,17 +563,20 @@ def retrieve_messages(channel_id: int) -> None:
     }
     url = f'https://discord.com/api/v9/channels/{channel_id}/messages'
     params = {'limit': limit} 
+    tmp_count = 0
     while True:
         r = requests.get(url, headers=headers, params=params)
         jsonn = json.loads(r.text)
         for value in jsonn:
-            # print(value)
             tokens.append(value['content'])
+            print(f"\r Found {tmp_count} Tokens", end='')
+            tmp_count += 1
         if len(jsonn) < limit:
             break
         else:
             last_message_id = jsonn[-1]['id']
             params['before'] = last_message_id
+    print("\n")
 
 retrieve_messages(id)
 
@@ -595,11 +599,11 @@ while True:
     continue
 
 
-  if token_verification >= 10:
+  if token_verification >= max_tokens:
     token_verification = 0
     count += 1
 
-  ask = input(f"{tokens[count]} ({10-token_verification} left) > ")
+  ask = input(f"{tokens[count]} ({max_tokens-token_verification} left) > ")
     
   
   if ask.lower() == "exit":
@@ -615,6 +619,9 @@ while True:
       if os.path.exists("chat.context"):os.remove('chat.context')
       print(f"{Fore.YELLOW} Context cleared!")
       continue 
+  elif ask.lower() == "!new":
+      count += 1
+      continue
 
   if data2 != "" and logpolicy == True: ask = f"Previous Context: {data2}, current questions by user: {ask}"
 
