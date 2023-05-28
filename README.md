@@ -73,7 +73,10 @@ use `--no-logs` if your having any issues with respond speeds or the program wor
 `clear context` or `cls_context`: Remove any sort of context; from local files, and from *poe*
 
 **Currently Working on...**
+1. Fixing some bugs reported by various users, including random freezes
 
-1. Creating a GUI for this program
+2. Creating a Library
+
+3. Creating a GUI for this program
 
 ***If you have any further questions, or suggestions, feel free to create a thread*** 
