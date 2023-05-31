@@ -1,4 +1,4 @@
-requests==2.27.1
+requests==2.31.0
 colorama==0.4.6
 websocket-client==1.5.1
 websockets==11.0.2
