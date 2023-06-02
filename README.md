@@ -3,9 +3,7 @@ Access multiple models such as gpt-3/3.5, gpt-4, claude+, claude-instant for fre
 
 ***Currently the program is facing some errors, we are working on resolving them ASAP!***
 
-***Run this program on repl.it***
-
-https://replit.com/@NA4543/Chat?v=1
+***Replit Example is currently not working, once I get a reliable way of hosting the `bard_token`, it will be up again, I apologize for this***
 
 **CREDITS**
 Poe-API  - ading2210 (https://github.com/ading2210/poe-api)  
@@ -42,6 +40,8 @@ pip install -r requirements.txt
 3. Press `F12` or `ctrl + shift + i` for google dev or console
 
 4. Session: Application → Cookies → Copy the value of `__Secure-1PSID` cookie.
+
+5. Open chatv1.1.py using any text editor, and replace `'CHANGE ME!'` in variable `bard_token` to value aquired on point 4 
 
 ***Click [Here](https://github.com/dsdanielpark/Bard-API) for more info***
 
