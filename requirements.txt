@@ -4,4 +4,5 @@ websocket-client==1.5.1
 websockets==11.0.2
 urllib3==1.26.9
 bs4==0.0.1
-poe-api==0.3.1
+poe-api
+bardapi
