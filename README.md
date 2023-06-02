@@ -74,7 +74,10 @@ pip install -r requirements.txt
 ![image](https://github.com/Ayan-Nalawade/Chat/assets/108238535/bbf6c731-b6af-4faa-b5bd-d48cc5a7f3bc)
 
 ## Common Issues
+
+
 Q: The program is not working, I am getting some errors related to modules
+
 A: Make sure all the modules in `requirements.txt` are up to date, you can try to reinstall these, by typing in ``` pip uninstall <module name> ``` and then ``` pip install <module name> ```
 
 ## Notes and usage
