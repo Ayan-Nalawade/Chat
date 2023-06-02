@@ -16,8 +16,12 @@ FreeGPT4 - Lomusire (https://github.com/Lomusire/FreeGPT-4)
 
 > For creating a program capable to create tokens, They also own a very cool discord server, I would recommend joining it!
 
+Bard-API - dsdanielpark (https://github.com/dsdanielpark/Bard-API)
 
-**Requirements and setup**
+> For creating a program capable to connect and get responce from Bard.
+
+
+## Requirements and setup
 
 Python3 Should be installed on your system
 
@@ -29,7 +33,19 @@ git clone https://github.com/Ayan-Nalawade/Chat.git
 pip install -r requirements.txt
 ```
 
-**Setup discord api**
+### Setup Bard API
+
+1. Go to [bard.google.com](https://bard.google.com/)
+
+2. Sign in with a google/bard approved account (***Required to use google bard api***)
+
+3. Press `F12` or `ctrl + shift + i` for google dev or console
+
+4. Session: Application → Cookies → Copy the value of `__Secure-1PSID` cookie.
+
+***Click [Here](https://github.com/dsdanielpark/Bard-API) for more info***
+
+### Setup discord api
 
 ***NOTE: Having it open on the website is required here and have the developer mode on, read below on how to turn it on!!***
 
@@ -59,26 +75,20 @@ pip install -r requirements.txt
 
 
 
-**Notes and usage**
+## Notes and usage
 
 Program by default will cycle through available and WORKING api's
 Each api will be connected for certain amount of requests to avoid overloading singular api
 
-use `--no-logs` if your having any issues with respond speeds or the program working at all..This command prevents context between different models/api's
-
 *In-cli commands*
 
-`exit` : Quite straight forward, exits the program and is the PROPER way to exit this program
+`!exit` : Quite straight forward, exits the program and is the PROPER way to exit this program
 
-`switch <model name>`: Switch between different models, at the end of each output, the program will display a list of available models, use the name on the left, for example, *gpt-4* would be *beaver*
+`<model_name> : <text>`: Use this to talk to a model, if unsure, type `help : help` to get bot names
 
-`clear context` or `cls_context`: Remove any sort of context; from local files, and from *poe*
+`!index`: Remove current *working* api's and re-grab the working api's, this may take a bit depending on your CPU, RAM and network speed
 
 **Currently Working on...**
-1. Fixing some bugs reported by various users, including random freezes
-
-2. Creating a Library
-
-3. Creating a GUI for this program
+1. Adding Bing AI
 
 ***If you have any further questions, or suggestions, feel free to create a thread*** 
