@@ -1,8 +1,6 @@
 # Chat
 Access multiple models such as gpt-3/3.5, gpt-4, claude+, claude-instant, bard for free!
 
-***Currently the program is facing some errors, we are working on resolving them ASAP!***
-
 ***Replit Example is currently not working, once I get a reliable way of hosting the `bard_token`, it will be up again, I apologize for this***
 
 **CREDITS**
