@@ -92,6 +92,6 @@ Each api will be connected for certain amount of requests to avoid overloading s
 `!index`: Remove current *working* api's and re-grab the working api's, this may take a bit depending on your CPU, RAM and network speed
 
 **Currently Working on...**
-1. Adding Bing AI
+1. Adding the ability to create images
 
 ***If you have any further questions, or suggestions, feel free to create a thread*** 
