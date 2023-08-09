@@ -1,7 +1,7 @@
 # Chat
 Access multiple models such as gpt-3/3.5, gpt-4, claude+, claude-instant, bard for free!
 
-***Replit Example && Poe-API is currently not working, once I get a reliable way of hosting the `bard_token`, it will be up again, I apologize for this***
+***Replit Example && Poe-API is currently not working since poe.com has `disabled` the p-b token, the project will not receive any updates until I figure something out***
 
 **CREDITS**
 Poe-API  - ading2210 (https://github.com/ading2210/poe-api)  
